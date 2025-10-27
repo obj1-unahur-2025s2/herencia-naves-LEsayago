@@ -1,9 +1,26 @@
-object pepita {
-  var energy = 100
+class Nave{
+  var velocidad
+  var direccion
 
-  method energy() = energy
+  method acelerar(cuando){
+    velocidad = (velocidad).min(100000)
+  }
+  method desacelerar(cuando) {
+    velocidad = (velocidad).max(0)
+  }
+  method irHaciaElSol() {
+    
+  }
+  method escaparDelSol() {
+    
+  }
+  method ponerseParaleloAlSol() {
 
-  method fly(minutes) {
-    energy = energy - minutes * 3
+  }
+  method acercarseUnPocoAlSol() {
+    
+  }
+  method alejarseUnPocoAlSol() {
+    
   }
 }
