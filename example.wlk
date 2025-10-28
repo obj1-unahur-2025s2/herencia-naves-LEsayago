@@ -182,6 +182,3 @@ class NaveDeCombate inherits Nave {
 class NaveSigilosa inherits NaveDeCombate {
  override method estaTranquila() = super() and not self.estaInvisible() 
 }
-
-
-
